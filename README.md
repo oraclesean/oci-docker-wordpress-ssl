@@ -10,7 +10,7 @@ Cloned from [Oracle Quickstart](https://github.com/oracle-quickstart/oci-arch-wo
 
 ## Prerequisites
 
-- Permission to `manage` the following types of resources in your Oracle Cloud Infrastructure tenancy: `vcns`, `internet-gateways`, `route-tables`, `security-lists`, `subnets`, `mysql-family`, and `instances`.
+- Permission to `manage` the following types of resources in your Oracle Cloud Infrastructure tenancy: `vcns`, `internet-gateways`, `route-tables`, `security-lists`, `subnets`, and `instances`.
 
 - Quota to create the following resources: 1 VCN, 1 subnet, 1 Internet Gateway, 2 route tables, 3 security lists, and 1 compute instance that will run Docker and host the WordPress, MySQL, and Nginx containers.
 
