@@ -2,9 +2,9 @@
 
 Cloned from [Oracle Quickstart](https://github.com/oracle-quickstart/oci-arch-wordpress-mds) and modified to:
 
-- Support for multiple WordPress sites
+- Support multiple WordPress sites
 
-- Support for SSL/HTTPS
+- Support SSL/HTTPS
 
 - Use Oracle Cloud Infrastructure Always-Free eligible resources
 
