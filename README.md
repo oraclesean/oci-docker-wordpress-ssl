@@ -104,12 +104,14 @@ terraform apply
 
 ### Test the Deployment
 
-After the deployment is finished, access WP-Admin using the wordpress_wp-admin_url output and pasting into web browser window. Verify initial content of your blog using the wordpress_public_ip:
+When the deployment is finished, access the WordPress admin interface using the wordpress_wp-admin_url shown in the Terraform output. Verify blog content using the wordpress_public_ip:
 
 ````
-wordpress_wp-admin_url = http://193.122.198.19/wp-admin/
-wordpress_public_ip = 193.122.198.19
+wordpress_wp-admin_url = https://<OCI-public-IP>/wp-admin/
+wordpress_public_ip = https://<OCI-public-IP>
 `````
+
+When setup of your site is complete, use the OCI public IP address to configure DNS with your domain registrar.
 
 ### Destroy the Deployment
 
