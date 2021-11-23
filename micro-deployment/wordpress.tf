@@ -66,7 +66,7 @@ data "oci_core_private_ips" "WordPress_private_ips1" {
 resource "oci_core_public_ip" "WordPress_public_ip" {
   compartment_id = var.compartment_ocid
   display_name   = "WordPress_public_ip"
-  lifetime       = "RESERVED"
+#  lifetime       = "RESERVED"
   private_ip_id  = data.oci_core_private_ips.WordPress_private_ips1.private_ips[0]["id"]
 }
 
