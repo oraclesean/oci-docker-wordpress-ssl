@@ -127,5 +127,5 @@ For details of the architecture, see [_Set up a WordPress CMS connected to a MyS
 
 ## Additional references
 
-- [_HTTPS for WordPress_](https://wordpress.org/support/article/https-for-wordpress/)
+- [HTTPS for WordPress](https://wordpress.org/support/article/https-for-wordpress/)
 
